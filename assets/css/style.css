@@ -1,0 +1,126 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+body {
+  margin: 0;
+  margin-bottom: 100px;
+  background-color: rgb(87, 148, 87);
+}
+
+header {
+  background-color: #596653;
+  color: #fff;
+  text-align: center;
+}
+
+
+h1{
+  font-family: "Comic Sans MS", "Comic Sans";
+  font-weight: bold;
+  color: #0c0403;
+}
+nav {
+  background-color: #596653;
+  padding: 10px;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #717a74;
+}
+
+a:hover {
+  color: #0c0403;
+  cursor: pointer;
+}
+
+.parrafo_principal{
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#carouselExampleIndicators{
+  margin: 10px;
+  padding: 10px;
+}
+
+#staff{
+  font-size: x-large;
+}
+
+#registro_login{
+  text-decoration-line: none;
+}
+
+#gridCheck{
+  background-color: #596653;
+}
+
+#login{
+  padding: 50px;
+  margin: 50px;
+}
+
+#registro{
+  padding: 50px;
+  margin: 50px;
+}
+
+.card{
+  padding: 10px;
+  margin: 10px;
+}
+
+.card-zoom:hover {
+  transform: scale(1.1); /* Aumenta la escala al 110% */
+  transition: transform 0.3s ease; /* Animación suave */
+}
+
+label{
+  padding-top: 10px;
+}
+
+footer {
+  background-color: #596653;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.footer-content {
+  max-width: 100%; /* Ancho máximo del contenido del footer */
+  margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
+  text-align: center;
+}
+
+#facebook,
+#instagram,
+#gitHub {
+  width: 50px;
+  height: auto;
+  border: none;
+  display: inline-block;
+  margin-left: 10px;
+}
