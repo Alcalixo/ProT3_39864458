@@ -24,13 +24,17 @@
                 <input type="password" class="form-control" id="inputPassword4">
             </div>
             <div class="col-lg-6">
+                <label for="inputUser" class="form-label">Usuario</label>
+                <input type="text" class="form-control" id="inputUsuario">
+            <!--</div>
+            <div class="col-lg-6">
                 <label for="inputCity" class="form-label">Ciudad</label>
                 <input type="text" class="form-control" id="inputCiudad">
             </div>
             <div class="col-lg-6">
                 <label for="inputAdress" class="form-label">País</label>
                 <input type="text" class="form-control" id="inputPais">
-            </div>
+            </div>-->
             <div class="col-12">
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" id="gridCheck">

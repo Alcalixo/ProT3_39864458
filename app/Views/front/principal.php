@@ -28,16 +28,16 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="assets/img/chrono_trigger3.jpg" class="rounded d-block w-100" alt="chrono_trigger">
+            <img src="<?php echo base_url('assets/img/chrono_trigger3.jpg') ?>" class="rounded d-block w-100" alt="chrono_trigger">
           </div>
           <div class="carousel-item">
-            <img src="assets/img/shinsetsu_mahou_shoujo3.jpg" class="rounded d-block w-100" alt="shinsetsu_mahou_shoujo">
+            <img src="<?php echo base_url('assets/img/shinsetsu_mahou_shoujo3.jpg') ?>" class="rounded d-block w-100" alt="shinsetsu_mahou_shoujo">
           </div>
           <div class="carousel-item">
-            <img src="assets/img/dark_deity3.jpg" class="rounded d-block w-100" alt="dark_deity">
+            <img src="<?php echo base_url('assets/img/dark_deity3.jpg') ?>" class="rounded d-block w-100" alt="dark_deity">
           </div>
           <div class="carousel-item">
-            <img src="assets/img/desarrollo3.jpg" class="rounded d-block w-100" alt="desarrollo">
+            <img src="<?php echo base_url('assets/img/desarrollo3.jpg') ?>" class="rounded d-block w-100" alt="desarrollo">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

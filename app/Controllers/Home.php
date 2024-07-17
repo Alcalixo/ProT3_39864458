@@ -6,29 +6,33 @@ class Home extends BaseController
 {
     public function index()
     {
-        echo view('front/head.php');
-        echo view('front/principal.php');
-        echo view('front/footer.php');
+        $data['titulo']='Página Principal'; 
+        echo view('front/head',$data);
+        echo view('front/principal');
+        echo view('front/footer');
     }
 
     public function login()
     {
-        echo view('front/head.php');
-        echo view('front/login.php');
-        echo view('front/footer.php');
+        $data['titulo']='Ingresar'; 
+        echo view('front/head',$data);
+        echo view('back/usuarios/login');
+        echo view('front/footer');
     }
 
     public function registro()
     {
-        echo view('front/head.php');
-        echo view('front/registro.php');
-        echo view('front/footer.php');
+        $data['titulo']='Registro'; 
+        echo view('front/head',$data);
+        echo view('back/usuarios/registro');
+        echo view('front/footer');
     }
 
     public function quienes_somos()
     {
-        echo view('front/head.php');
-        echo view('front/quienes_somos.php');
-        echo view('front/footer.php');
+        $data['titulo']='Quines Somos'; 
+        echo view('front/head',$data);
+        echo view('front/quienes_somos');
+        echo view('front/footer');
     }
 }
