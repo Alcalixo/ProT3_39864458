@@ -13,6 +13,7 @@ class login_controller extends BaseController
 
         $dato['titulo'] = 'Ingresar';
         echo view('front/head', $dato);
+        echo view('front/navbar');
         echo view('back/usuarios/login');
         echo view('front/footer');
     }
@@ -22,7 +23,7 @@ class login_controller extends BaseController
         $session = session();
         $model = new usuario_model();
 
-        //traer datos
+        //traer datos del formulario login
         $email = $this->request->getVar('email');
         $password = $this->request->getVar('pass');
         $data = $model->where('email', $email)->first();
@@ -34,8 +35,9 @@ class login_controller extends BaseController
                 $session->setFlashdata('msg', 'Usuario Inhabilitado');
                 return redirect()->to('/login_controller');
             }
+            //Verificación de datos de ingreso
             $verify_pass = password_verify($password, $pass);
-            if($verify_pass){
+            if ($verify_pass) {
                 $ses_data = [
                     'id_usuario' => $data['id_usuario'],
                     'nombre' => $data['nombre'],
@@ -45,7 +47,30 @@ class login_controller extends BaseController
                     'perfil_id' => $data['perfil_id'],
                     'logged_in' => TRUE
                 ];
+
+                //Iniciar la sesion en caso de validación exitosa
+                $session->set($ses_data);
+                session()->setFlashdata('msg', 'Bienvenido');
+                return redirect()->to('/panel');
+
+                //si no pasa la validacion de contraseña
+            } else {
+                $session->setFlashdata('msg', 'Contraseña incorrecta');
+                return redirect()->to('/login_controller');
             }
+
+            //si no pasa la validacion del email
+        } else {
+            $session->setFlashdata('msg', 'Email incorrecto o inexistente');
+            return redirect()->to('/login_controller');
         }
+    }
+
+    //Cerrar Sesion
+    public function logout()
+    {
+        $session = session();
+        $session->destroy();
+        return redirect()->to('/');
     }
 }

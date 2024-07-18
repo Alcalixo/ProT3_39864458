@@ -8,6 +8,7 @@ class Home extends BaseController
     {
         $data['titulo']='Página Principal'; 
         echo view('front/head',$data);
+        echo view('front/navbar');
         echo view('front/principal');
         echo view('front/footer');
     }
@@ -16,6 +17,7 @@ class Home extends BaseController
     {
         $data['titulo']='Ingresar'; 
         echo view('front/head',$data);
+        echo view('front/navbar');
         echo view('back/usuarios/login');
         echo view('front/footer');
     }
@@ -24,6 +26,7 @@ class Home extends BaseController
     {
         $data['titulo']='Registro'; 
         echo view('front/head',$data);
+        echo view('front/navbar');
         echo view('back/usuarios/registro');
         echo view('front/footer');
     }
@@ -32,6 +35,7 @@ class Home extends BaseController
     {
         $data['titulo']='Quines Somos'; 
         echo view('front/head',$data);
+        echo view('front/navbar');
         echo view('front/quienes_somos');
         echo view('front/footer');
     }
