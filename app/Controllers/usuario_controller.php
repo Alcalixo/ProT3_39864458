@@ -16,6 +16,7 @@ class usuario_controller extends Controller
     {
         $dato['titulo'] = 'Registro';
         echo view('front/head', $dato);
+        echo view('front/navbar');
         echo view('back/usuarios/registro');
         echo view('front/footer');
     }
@@ -34,6 +35,7 @@ class usuario_controller extends Controller
         if (!$imput) {
             $data['titulo'] = 'Registro';
             echo view('front/head', $data);
+            echo view('front/navbar');
             echo view('back/usuarios/registro', ['validation' => $this->validator]);
             echo view('front/footer');
         } else {
@@ -47,8 +49,8 @@ class usuario_controller extends Controller
             ],);
 
             //flassdata solo funciona en redirigir la funcion en el controlador en vista de carga
-            session()->setFlashdata('succes', 'Usuario Registrado con Éxito');
-            return $this->response->redirect('/login');
+            session()->setFlashdata('success', 'Usuario Registrado con Éxito');
+            return $this->response->redirect('login');
         }
     }
 }

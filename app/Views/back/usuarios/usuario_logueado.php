@@ -2,8 +2,8 @@
     <div class="row justify-content-center">
         <div class="col-4">
             <?php if (session()->getFlashdata('msg')) : ?>
-                <div class="alert alert-waring">
-                    <?= session()->getFlashdata('msg') ?>
+                <div class="alert alert-warning">
+                    <?= session()->getFlashdata('msg'); ?>
                 </div>
             <?php endif; ?>
         </div>

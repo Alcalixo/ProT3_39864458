@@ -1,11 +1,10 @@
 <div class="row">
     <div class="col d-flex justify-content-center" id="registro">
         <!--Formulario de Registro-->
-        <form class="row g-3">
+        <div class="row g-3">
             <h2 class="parrafo_principal">Registrarse</h2>
             <?php $validation = \Config\Services::validation(); ?>
             <form method="post" action="<?php echo base_url('enviar-form') ?>">
-                <?= csrf_field(); ?>
                 <?= csrf_field(); ?>
                 <?php if (!empty(session()->getFlashdata('fail'))) : ?>
                     <div class="alert alert-danger"><?= session()->getFlashdata('fail'); ?></div>
@@ -79,6 +78,6 @@
                     <button type="submit" class="btn btn-secondary">Registrarse</button>
                 </div>
             </form>
-        </form>
+        </div>
     </div>
 </div>

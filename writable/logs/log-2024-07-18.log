@@ -622,3 +622,87 @@ in APPPATH\Views\front\navbar.php on line 102.
  7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-18 03:02:37 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "back/ususarios/usuario_logueado.php"
+[Method: GET, Route: panel]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/ususarios/usuario_logueado.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/ususarios/usuario_logueado', [], true)
+ 3 APPPATH\Controllers\panel_controller.php(19): view('back/ususarios/usuario_logueado', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\panel_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\panel_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-18 03:06:06 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "back/ususarios/usuario_logueado.php"
+[Method: GET, Route: panel]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/ususarios/usuario_logueado.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/ususarios/usuario_logueado', [], true)
+ 3 APPPATH\Controllers\panel_controller.php(19): view('back/ususarios/usuario_logueado', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\panel_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\panel_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-18 03:06:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "back/ususarios/usuario_logueado.php"
+[Method: GET, Route: panel]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/ususarios/usuario_logueado.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/ususarios/usuario_logueado', [], true)
+ 3 APPPATH\Controllers\panel_controller.php(19): view('back/ususarios/usuario_logueado', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\panel_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\panel_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-18 03:09:03 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "back/ususarios/usuario_logueado.php"
+[Method: GET, Route: panel]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/ususarios/usuario_logueado.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/ususarios/usuario_logueado', [], true)
+ 3 APPPATH\Controllers\panel_controller.php(19): view('back/ususarios/usuario_logueado', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\panel_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\panel_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-18 03:11:39 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "back/ususarios/usuario_logueado.php"
+[Method: GET, Route: panel]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/ususarios/usuario_logueado.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/ususarios/usuario_logueado', [], true)
+ 3 APPPATH\Controllers\panel_controller.php(19): view('back/ususarios/usuario_logueado', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\panel_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\panel_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-18 03:20:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "back/ususarios/usuario_logueado.php"
+[Method: GET, Route: panel]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/ususarios/usuario_logueado.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/ususarios/usuario_logueado', [], true)
+ 3 APPPATH\Controllers\panel_controller.php(20): view('back/ususarios/usuario_logueado', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\panel_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\panel_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-18 03:20:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "back/ususarios/usuario_logueado.php"
+[Method: GET, Route: panel]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/ususarios/usuario_logueado.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/ususarios/usuario_logueado', [], true)
+ 3 APPPATH\Controllers\panel_controller.php(20): view('back/ususarios/usuario_logueado', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\panel_controller->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\panel_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

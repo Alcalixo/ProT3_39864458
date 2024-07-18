@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 use CodeIgniter\Controller;
 
-class panel_controller extends Controller
+class panel_controller extends BaseController
 {
     public function index()
     {
@@ -16,8 +16,8 @@ class panel_controller extends Controller
 
         $dato['titulo'] = 'panel del usuario';
         echo view('front/head', $dato);
-        echo view('back/ususarios/usuario_logueado', $data);
         echo view('front/navbar');
+        echo view('back/usuarios/usuario_logueado', $data);
         echo view('front/footer');
     }
 }
