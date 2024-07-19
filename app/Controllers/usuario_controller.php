@@ -53,4 +53,65 @@ class usuario_controller extends Controller
             return $this->response->redirect('login');
         }
     }
+
+    public function edit($id)  //editar un usuario
+    {
+        $session = session();
+        $model = new usuario_model();
+        $data['usuario'] = $model->getUserById($id);
+
+        // Solo el administrador puede editar cualquier usuario
+        // Los usuarios normales solo pueden editar sus propios datos
+        if ($session->get('perfil_id') != 1 && $session->get('id_usuario') != $id) {
+            return redirect()->to('/usuarios');
+        }
+
+        helper(['form']);
+
+        if ($this->request->getMethod() == 'post') {
+            $updateData = [
+                'nombre' => $this->request->getPost('nombre'),
+                'apellido' => $this->request->getPost('apellido'),
+                'email' => $this->request->getPost('email'),
+                'usuario' => $this->request->getPost('usuario'),
+            ];
+
+            // Solo el administrador puede cambiar el perfil_id y el estado de activo o inactivo
+            if ($session->get('perfil_id') == 1) {
+                $updateData['perfil_id'] = $this->request->getPost('perfil_id');
+                $updateData['baja'] = $this->request->getPost('baja');
+            }
+
+
+            if ($model->updateUser($id, $updateData)) {
+                $session->setFlashdata('msg', 'Usuario actualizado correctamente');
+                return redirect()->to('/usuarios');
+            } else {
+                $data['validation'] = $this->validator;
+            }
+        }
+
+        echo view('front/head');
+        echo view('front/navbar');
+        echo view('back/usuarios/editar_usuario', $data);
+        echo view('front/footer');
+    }
+
+    public function delete($id)  //Eliminar un usuario
+    {
+        //Validacion de usuario administrador
+        $session = session();
+        if ($session->get('perfil_id') != 1) {
+            return redirect()->to('/usuarios');
+        }
+
+        $model = new usuario_model();
+        if ($model->deleteUser($id)) {
+            $session->setFlashdata('msg', 'Usuario eliminado correctamente');
+        } else {
+            $session->setFlashdata('msg', 'No se pudo eliminar el usuario');
+        }
+
+        return redirect()->to('/usuarios');
+    }
 }

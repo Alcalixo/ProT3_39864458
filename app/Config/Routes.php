@@ -20,3 +20,6 @@ $routes->get('/login', 'login_controller');
 $routes->post('/enviarlogin', 'login_controller::auth');
 $routes->get('/panel', 'panel_controller::index', ['filter' => 'auth']);
 $routes->get('logout', 'login_controller::logout');
+
+//Rutas de la gestion de usuarios
+
