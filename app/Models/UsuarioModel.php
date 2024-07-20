@@ -4,11 +4,11 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class usuario_model extends Model
+class UsuarioModel extends Model
 {
     protected $table = 'usuarios';
     protected $primaryKey = 'id_usuario';
-    protected $allowedFields = ['nombre', 'apellido', ' usuario', 'email', 'pass', 'perfil_id', 'baja', 'created_at'];
+    protected $allowedFields = ['nombre', 'apellido', 'usuario', 'email', 'pass', 'perfil_id', 'baja', 'created_at'];
 
 
     public function getAllUsers()
@@ -21,12 +21,11 @@ class usuario_model extends Model
         return $this->find($id);
     }
 
-    //Generado en el registro, pendiente de verificacion de uso
-    /*public function createUser($data)
+    public function createUser($data)
     {
         return $this->insert($data);
     }
-    */
+
     public function updateUser($id, $data)
     {
         return $this->update($id, $data);

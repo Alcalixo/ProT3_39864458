@@ -39,4 +39,21 @@ class Home extends BaseController
         echo view('front/quienes_somos');
         echo view('front/footer');
     }
+
+    public function lista_usuarios()
+    {
+        $data['titulo']='Lista de Usuarios'; 
+        echo view('front/head',$data);
+        echo view('front/navbar');
+        echo view('back/usuarios/lista_usuarios');
+        echo view('front/footer');
+    }
+    public function editar_usuario()
+    {
+        $data['titulo']='Quines Somos'; 
+        echo view('front/head',$data);
+        echo view('front/navbar');
+        echo view('back/usuarios/editar_usuario');
+        echo view('front/footer');
+    }
 }

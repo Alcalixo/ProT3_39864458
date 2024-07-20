@@ -1,6 +1,5 @@
 <div class="row">
     <div class="col d-flex justify-content-center" id="registro">
-        <!--Formulario de Registro-->
         <div class="row g-3">
             <h2 class="parrafo_principal">Registrarse</h2>
             <?php $validation = \Config\Services::validation(); ?>
@@ -10,7 +9,7 @@
                     <div class="alert alert-danger"><?= session()->getFlashdata('fail'); ?></div>
                 <?php endif ?>
                 <?php if (!empty(session()->getFlashdata('success'))) : ?>
-                    <div class="alert alert-danger"><?= session()->getFlashdata('success'); ?></div>
+                    <div class="alert alert-success"><?= session()->getFlashdata('success'); ?></div>
                 <?php endif ?>
 
                 <div class="input-group">
@@ -55,25 +54,9 @@
                         </div>
                     <?php } ?>
                     <div id="passwordHelpBlock" class="form-text">
-                        Tu contraseña debe tener entre 8-20 caracteres de longitud, puede contener letras y numeros (abc123), pero no puede contener espacios vacios ni caractereres especiales (,.-)
+                        Tu contraseña debe tener entre 8-20 caracteres de longitud, puede contener letras y numeros (abc123), pero no puede contener espacios vacios ni caracteres especiales (,.-)
                     </div>
                 </div>
-                <!--<div class="col-lg-6">
-                <label for="inputCity" class="form-label">Ciudad</label>
-                <input type="text" class="form-control" id="inputCiudad">
-            </div>
-            <div class="col-lg-6">
-                <label for="inputAdress" class="form-label">País</label>
-                <input type="text" class="form-control" id="inputPais">
-            </div>
-                <div class="col-12">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck">
-                        <label class="form-check-label" for="gridCheck">
-                            Estoy de acuerdo con los terminos y condiciones
-                        </label>
-                    </div>
-                </div>-->
                 <div class="col-12">
                     <button type="submit" class="btn btn-secondary">Registrarse</button>
                 </div>

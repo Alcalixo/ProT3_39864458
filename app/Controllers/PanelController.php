@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 use CodeIgniter\Controller;
 
-class panel_controller extends BaseController
+class PanelController extends BaseController
 {
     public function index()
     {

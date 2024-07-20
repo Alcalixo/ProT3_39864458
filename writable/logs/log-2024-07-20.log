@@ -1,0 +1,312 @@
+CRITICAL - 2024-07-20 15:47:01 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "(:num)"
+[Method: GET, Route: usuarios/edit/%28:num%29]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('usuarios/edit/(:num)')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('usuarios/edit/(:num)')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 15:56:13 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "(:num)"
+[Method: GET, Route: usuarios/edit/%28:num%29]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('usuarios/edit/(:num)')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('usuarios/edit/(:num)')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 15:58:01 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "(:num)"
+[Method: GET, Route: usuarios/edit/%28:num%29]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('usuarios/edit/(:num)')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('usuarios/edit/(:num)')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 16:01:21 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "(:num)"
+[Method: GET, Route: usuarios/edit/%28:num%29]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('usuarios/edit/(:num)')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('usuarios/edit/(:num)')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 16:01:29 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "(:num)"
+[Method: GET, Route: usuarios/edit/%28:num%29]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('usuarios/edit/(:num)')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('usuarios/edit/(:num)')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 16:01:54 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "(:num)"
+[Method: GET, Route: usuarios/edit/%28:num%29]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('usuarios/edit/(:num)')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('usuarios/edit/(:num)')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 16:05:29 --> ErrorException: Undefined variable $titulo
+[Method: GET, Route: usuarios/edit/1]
+in APPPATH\Views\front\head.php on line 7.
+ 1 APPPATH\Views\front\head.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'C:\\xampp\\htdocs\\ProT3_39864458\\app\\Views\\front\\head.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_39864458\\app\\Views\\front\\head.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('front/head', [], true)
+ 5 APPPATH\Controllers\usuario_controller.php(94): view('front/head')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\usuario_controller->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 16:17:50 --> ErrorException: Undefined variable $titulo
+[Method: GET, Route: usuarios/edit/1]
+in APPPATH\Views\front\head.php on line 7.
+ 1 APPPATH\Views\front\head.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'C:\\xampp\\htdocs\\ProT3_39864458\\app\\Views\\front\\head.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_39864458\\app\\Views\\front\\head.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('front/head', [], true)
+ 5 APPPATH\Controllers\UsuarioController.php(94): view('front/head')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsuarioController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 16:17:59 --> ErrorException: Undefined variable $titulo
+[Method: GET, Route: usuarios/edit/2]
+in APPPATH\Views\front\head.php on line 7.
+ 1 APPPATH\Views\front\head.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'C:\\xampp\\htdocs\\ProT3_39864458\\app\\Views\\front\\head.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_39864458\\app\\Views\\front\\head.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('front/head', [], true)
+ 5 APPPATH\Controllers\UsuarioController.php(94): view('front/head')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsuarioController->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 16:18:11 --> ErrorException: Undefined variable $titulo
+[Method: GET, Route: usuarios/edit/2]
+in APPPATH\Views\front\head.php on line 7.
+ 1 APPPATH\Views\front\head.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'C:\\xampp\\htdocs\\ProT3_39864458\\app\\Views\\front\\head.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_39864458\\app\\Views\\front\\head.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('front/head', [], true)
+ 5 APPPATH\Controllers\UsuarioController.php(94): view('front/head')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsuarioController->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 16:18:19 --> ErrorException: Undefined variable $titulo
+[Method: GET, Route: usuarios/edit/2]
+in APPPATH\Views\front\head.php on line 7.
+ 1 APPPATH\Views\front\head.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'C:\\xampp\\htdocs\\ProT3_39864458\\app\\Views\\front\\head.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_39864458\\app\\Views\\front\\head.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('front/head', [], true)
+ 5 APPPATH\Controllers\UsuarioController.php(94): view('front/head')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsuarioController->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 16:20:41 --> ErrorException: Undefined variable $titulo
+[Method: GET, Route: usuarios/edit/2]
+in APPPATH\Views\front\head.php on line 7.
+ 1 APPPATH\Views\front\head.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'C:\\xampp\\htdocs\\ProT3_39864458\\app\\Views\\front\\head.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_39864458\\app\\Views\\front\\head.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('front/head', [], true)
+ 5 APPPATH\Controllers\UsuarioController.php(94): view('front/head')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsuarioController->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 16:22:28 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: usuarios/edit/2]
+in APPPATH\Views\back\usuarios\editar_usuario.php on line 6.
+ 1 APPPATH\Views\back\usuarios\editar_usuario.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\ProT3_39864458\\app\\Views\\back\\usuarios\\editar_usuario.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_39864458\\app\\Views\\back\\usuarios\\editar_usuario.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuarios/editar_usuario', [], true)
+ 5 APPPATH\Controllers\UsuarioController.php(91): view('back/usuarios/editar_usuario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsuarioController->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 16:25:21 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: usuarios/edit/2]
+in APPPATH\Views\back\usuarios\editar_usuario.php on line 6.
+ 1 APPPATH\Views\back\usuarios\editar_usuario.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\ProT3_39864458\\app\\Views\\back\\usuarios\\editar_usuario.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_39864458\\app\\Views\\back\\usuarios\\editar_usuario.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuarios/editar_usuario', [], true)
+ 5 APPPATH\Controllers\UsuarioController.php(102): view('back/usuarios/editar_usuario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsuarioController->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 16:25:28 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: usuarios/edit/2]
+in APPPATH\Views\back\usuarios\editar_usuario.php on line 6.
+ 1 APPPATH\Views\back\usuarios\editar_usuario.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\ProT3_39864458\\app\\Views\\back\\usuarios\\editar_usuario.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_39864458\\app\\Views\\back\\usuarios\\editar_usuario.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuarios/editar_usuario', [], true)
+ 5 APPPATH\Controllers\UsuarioController.php(102): view('back/usuarios/editar_usuario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsuarioController->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 17:10:44 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: usuarios/edit/4]
+in APPPATH\Views\back\usuarios\editar_usuario.php on line 6.
+ 1 APPPATH\Views\back\usuarios\editar_usuario.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\ProT3_39864458\\app\\Views\\back\\usuarios\\editar_usuario.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_39864458\\app\\Views\\back\\usuarios\\editar_usuario.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuarios/editar_usuario', [], true)
+ 5 APPPATH\Controllers\UsuarioController.php(102): view('back/usuarios/editar_usuario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsuarioController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 17:53:02 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: usuarios/edit/2]
+in APPPATH\Views\back\usuarios\editar_usuario.php on line 6.
+ 1 APPPATH\Views\back\usuarios\editar_usuario.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\ProT3_39864458\\app\\Views\\back\\usuarios\\editar_usuario.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_39864458\\app\\Views\\back\\usuarios\\editar_usuario.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuarios/editar_usuario', [], true)
+ 5 APPPATH\Controllers\UsuarioController.php(102): view('back/usuarios/editar_usuario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsuarioController->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 17:56:14 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: usuarios/edit/2]
+in APPPATH\Views\back\usuarios\editar_usuario.php on line 6.
+ 1 APPPATH\Views\back\usuarios\editar_usuario.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\ProT3_39864458\\app\\Views\\back\\usuarios\\editar_usuario.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_39864458\\app\\Views\\back\\usuarios\\editar_usuario.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuarios/editar_usuario', [], true)
+ 5 APPPATH\Controllers\UsuarioController.php(102): view('back/usuarios/editar_usuario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsuarioController->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 17:59:40 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: usuarios/edit/1]
+in APPPATH\Views\back\usuarios\editar_usuario.php on line 6.
+ 1 APPPATH\Views\back\usuarios\editar_usuario.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\ProT3_39864458\\app\\Views\\back\\usuarios\\editar_usuario.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_39864458\\app\\Views\\back\\usuarios\\editar_usuario.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuarios/editar_usuario', [], true)
+ 5 APPPATH\Controllers\UsuarioController.php(102): view('back/usuarios/editar_usuario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsuarioController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 18:00:31 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: usuarios/edit/2]
+in APPPATH\Views\back\usuarios\editar_usuario.php on line 6.
+ 1 APPPATH\Views\back\usuarios\editar_usuario.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\ProT3_39864458\\app\\Views\\back\\usuarios\\editar_usuario.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_39864458\\app\\Views\\back\\usuarios\\editar_usuario.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuarios/editar_usuario', [], true)
+ 5 APPPATH\Controllers\UsuarioController.php(102): view('back/usuarios/editar_usuario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsuarioController->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 18:01:40 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: usuarios/edit/2]
+in APPPATH\Views\back\usuarios\editar_usuario.php on line 6.
+ 1 APPPATH\Views\back\usuarios\editar_usuario.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\ProT3_39864458\\app\\Views\\back\\usuarios\\editar_usuario.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_39864458\\app\\Views\\back\\usuarios\\editar_usuario.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuarios/editar_usuario', [], true)
+ 5 APPPATH\Controllers\UsuarioController.php(102): view('back/usuarios/editar_usuario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsuarioController->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 18:01:41 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: usuarios/edit/2]
+in APPPATH\Views\back\usuarios\editar_usuario.php on line 6.
+ 1 APPPATH\Views\back\usuarios\editar_usuario.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\ProT3_39864458\\app\\Views\\back\\usuarios\\editar_usuario.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_39864458\\app\\Views\\back\\usuarios\\editar_usuario.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuarios/editar_usuario', [], true)
+ 5 APPPATH\Controllers\UsuarioController.php(102): view('back/usuarios/editar_usuario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsuarioController->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 18:01:41 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: usuarios/edit/2]
+in APPPATH\Views\back\usuarios\editar_usuario.php on line 6.
+ 1 APPPATH\Views\back\usuarios\editar_usuario.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\ProT3_39864458\\app\\Views\\back\\usuarios\\editar_usuario.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_39864458\\app\\Views\\back\\usuarios\\editar_usuario.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuarios/editar_usuario', [], true)
+ 5 APPPATH\Controllers\UsuarioController.php(102): view('back/usuarios/editar_usuario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsuarioController->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-20 18:01:41 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: usuarios/edit/2]
+in APPPATH\Views\back\usuarios\editar_usuario.php on line 6.
+ 1 APPPATH\Views\back\usuarios\editar_usuario.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\ProT3_39864458\\app\\Views\\back\\usuarios\\editar_usuario.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ProT3_39864458\\app\\Views\\back\\usuarios\\editar_usuario.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/usuarios/editar_usuario', [], true)
+ 5 APPPATH\Controllers\UsuarioController.php(102): view('back/usuarios/editar_usuario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsuarioController->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

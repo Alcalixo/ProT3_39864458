@@ -1,13 +1,14 @@
 <div class="container">
     <h2>Lista de Usuarios</h2>
-    <?php if (session()->getFlashdata('msg')) : ?>
+    <?php if (session()->getFlashdata('msg')): ?>
         <div class="alert alert-success">
-            <?= session()->getFlashdata('msg'); ?>
+            <?= session()->getFlashdata('msg') ?>
         </div>
-    <?php endif; ?>
+    <?php endif;?>
     <table class="table">
         <thead>
             <tr>
+                <th>ID</th>
                 <th>Nombre</th>
                 <th>Apellido</th>
                 <th>Email</th>
@@ -16,17 +17,16 @@
             </tr>
         </thead>
         <tbody>
-            <?php foreach ($usuarios as $usuario) : ?>
+            <?php foreach ($usuarios as $usuario): ?>
                 <tr>
-                    <td><?= $usuario['nombre']; ?></td>
-                    <td><?= $usuario['apellido']; ?></td>
-                    <td><?= $usuario['email']; ?></td>
-                    <td><?= $usuario['usuario']; ?></td>
+                    <td><?= $usuario['id_usuario'] ?></td>
+                    <td><?= $usuario['nombre'] ?></td>
+                    <td><?= $usuario['apellido'] ?></td>
+                    <td><?= $usuario['email'] ?></td>
+                    <td><?= $usuario['usuario'] ?></td>
                     <td>
-                        <a href="<?= base_url('usuarios/edit/' . $usuario['id_usuario']); ?>" class="btn btn-primary">Editar</a>
-                        <?php if (session()->perfil_id == 1) : ?>
-                            <a href="<?= base_url('usuarios/delete/' . $usuario['id_usuario']); ?>" class="btn btn-danger">Eliminar</a>
-                        <?php endif; ?>
+                        <a href="<?= base_url('/usuarios/edit/' . $usuario['id']) ?>" class="btn btn-primary">Editar</a>
+                        <a href="<?= base_url('/usuarios/delete/' . $usuario['id']) ?>" class="btn btn-danger">Eliminar</a>
                     </td>
                 </tr>
             <?php endforeach; ?>
