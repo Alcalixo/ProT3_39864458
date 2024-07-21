@@ -33,7 +33,7 @@ class Home extends BaseController
 
     public function quienes_somos()
     {
-        $data['titulo']='Quines Somos'; 
+        $data['titulo']='Quienes Somos'; 
         echo view('front/head',$data);
         echo view('front/navbar');
         echo view('front/quienes_somos');

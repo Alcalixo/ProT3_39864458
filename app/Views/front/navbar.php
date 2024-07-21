@@ -26,7 +26,7 @@ $perfil = $session->get('perfil_id');
                         <a class="nav-link" href="<?= base_url('quienes_somos') ?>">Quienes somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?= base_url('/usuarios') ?>">Usuarios registrados</a>
+                        <a class="nav-link" href="<?= base_url('usuarios') ?>">Usuarios registrados</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="<?= base_url('/usuarios/edit/' . session('id_usuario')) ?>">Editar usuario</a>

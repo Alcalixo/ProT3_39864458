@@ -22,7 +22,7 @@ $routes->get('/panel', 'PanelController::index', ['filter' => 'auth']);
 $routes->get('/logout', 'LoginController::logout');
 
 // Rutas de la gestión de usuarios
-$routes->get('/usuarios', 'UsuarioController::index', ['filter' => 'auth']);
+$routes->get('/usuarios', 'UsuarioController::listar', ['filter' => 'auth']);
 $routes->match(['get', 'post'], '/usuarios/create', 'UsuarioController::create', ['filter' => 'auth']);
 $routes->match(['get', 'post'], '/usuarios/edit/(:num)', 'UsuarioController::edit/$1', ['filter' => 'auth']);
 $routes->get('/usuarios/delete/(:num)', 'UsuarioController::delete/$1', ['filter' => 'auth']);

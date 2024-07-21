@@ -5,16 +5,16 @@
             <p class="parrafo_principal">Completa tus datos</p>
             <div class="input-group">
                 <span class="input-group-text">Nombres y Apellidos</span>
-                <input type="text" aria-label="First name" class="form-control">
-                <input type="text" aria-label="Last name" class="form-control">
+                <input type="text" aria-label="First name" class="form-control" name="nombre">
+                <input type="text" aria-label="Last name" class="form-control" name="apellido">
             </div>
             <div class="col-lg-12">
                 <label for="inputEmail4" class="form-label">Email</label>
-                <input type="email" class="form-control" id="inputEmail4" placeholder="email@email.com">
+                <input type="email" class="form-control" id="inputEmail4" placeholder="email@email.com" name="email">
             </div>
             <div class="col-lg-6">
                 <label for="inputPassword4" class="form-label">Contraseña</label>
-                <input type="password" class="form-control" id="inputPassword4">
+                <input type="password" class="form-control" id="inputPassword4" name="pass">
                 <div id="passwordHelpBlock" class="form-text">
                     Tu contraseña debe tener entre 8-20 caracteres de longitud, puede contener letras y numeros (abc123), pero no puede contener espacios vacios ni caractereres especiales (,.-)
                 </div>
@@ -25,7 +25,7 @@
             </div>
             <div class="col-lg-6">
                 <label for="inputUser" class="form-label">Usuario</label>
-                <input type="text" class="form-control" id="inputUsuario">
+                <input type="text" class="form-control" id="inputUsuario" name="usuario">
             <!--</div>
             <div class="col-lg-6">
                 <label for="inputCity" class="form-label">Ciudad</label>

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 18-07-2024 a las 05:33:45
+-- Tiempo de generación: 21-07-2024 a las 23:57:22
 -- Versión del servidor: 10.4.22-MariaDB
 -- Versión de PHP: 8.1.1
 
@@ -20,6 +20,25 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `rodriguez_gonzalo`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `estado`
+--
+
+CREATE TABLE `estado` (
+  `id_estado` int(11) NOT NULL,
+  `descripcion` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Volcado de datos para la tabla `estado`
+--
+
+INSERT INTO `estado` (`id_estado`, `descripcion`) VALUES
+(1, 'activo'),
+(2, 'inactivo');
 
 -- --------------------------------------------------------
 
@@ -62,13 +81,21 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id_usuario`, `nombre`, `apellido`, `usuario`, `email`, `pass`, `perfil_id`, `baja`) VALUES
-(1, 'Gonzalo', 'Rodriguez', '', 'alcalixo@gmail.com', '$2y$10$5NFUkCLq2ro7dfiwq80jgOShXZEeL9N2uDP8./1Ul5XH9PGrnXzJG', 1, 'NO'),
-(2, 'Braian', 'Rodríguez', '', 'masten@gmail.com', '$2y$10$ZL5bgA25YIBztPsCvYQVOeNbo98r1AOQErpTt59tHGxbrmRAYEING', 2, 'NO'),
-(3, 'Juan', 'Perez', '', 'juanperez@gmail.com', '$2y$10$cGwSgtOHxRWH8ieS3NMJQu.RWa..Ef3RMJUfmP7eqy9svXGPysj0q', 2, 'NO');
+(1, 'Gonzalo', 'Rodriguez', 'Alcalixo', 'alcalixo@gmail.com', '$2y$10$5NFUkCLq2ro7dfiwq80jgOShXZEeL9N2uDP8./1Ul5XH9PGrnXzJG', 1, 'NO'),
+(2, 'Braian', 'Rodríguez', 'Masten-Lone', 'masten@gmail.com', '$2y$10$ZL5bgA25YIBztPsCvYQVOeNbo98r1AOQErpTt59tHGxbrmRAYEING', 2, 'NO'),
+(4, 'Elissa', 'Laintez', 'Elissa', 'elissa@gmail.com', '$2y$10$dlaCwfZDP4X1uN2XCePzEOQqU9HvRpY0x1Z5HUZhPufohYOzcVvU6', 2, 'NO'),
+(5, 'Guillermo', 'Francella', 'Argento', 'guille_fran_racing@gmail.com', '$2y$10$6zRA4yFIGkJC2BjcU8dvAe1yJ6piyHd7UmnzKnEYB3EUJL/uS.jS.', 2, 'NO'),
+(6, 'Juan', 'Perez', 'JuanPerez', 'juanperez@gmail.com', '$2y$10$sOYG7BQa/1JI4RHPAJvr8uyfsDNxZMNe3G8nyJh28DmsjOKWRoK26', 2, 'SI');
 
 --
 -- Índices para tablas volcadas
 --
+
+--
+-- Indices de la tabla `estado`
+--
+ALTER TABLE `estado`
+  ADD PRIMARY KEY (`id_estado`);
 
 --
 -- Indices de la tabla `perfiles`
@@ -87,6 +114,12 @@ ALTER TABLE `usuarios`
 --
 
 --
+-- AUTO_INCREMENT de la tabla `estado`
+--
+ALTER TABLE `estado`
+  MODIFY `id_estado` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
 -- AUTO_INCREMENT de la tabla `perfiles`
 --
 ALTER TABLE `perfiles`
@@ -96,7 +129,7 @@ ALTER TABLE `perfiles`
 -- AUTO_INCREMENT de la tabla `usuarios`
 --
 ALTER TABLE `usuarios`
-  MODIFY `id_usuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id_usuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

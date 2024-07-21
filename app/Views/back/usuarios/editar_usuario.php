@@ -1,6 +1,6 @@
 <div class="container">
     <h2>Editar Usuario</h2>
-    <?php if (isset($validation)): ?>
+    <?php if (isset($validation)) : ?>
         <div class="alert alert-danger"><?= $validation->listErrors() ?></div>
     <?php endif; ?>
     <form action="<?= base_url('/usuarios/edit/' . $usuario['id_usuario']) ?>" method="post">
@@ -21,7 +21,7 @@
             <label for="usuario">Usuario</label>
             <input type="text" class="form-control" name="usuario" value="<?= $usuario['usuario'] ?>">
         </div>
-        <?php if (session()->get('perfil_id') == 1): ?>
+        <?php if (session()->get('perfil_id') == 1) : ?>
             <div class="form-group">
                 <label for="perfil_id">Perfil</label>
                 <select class="form-control" name="perfil_id">
@@ -32,11 +32,12 @@
             <div class="form-group">
                 <label for="baja">Estado</label>
                 <select class="form-control" name="baja">
-                    <option value="0" <?= ($usuario['baja'] == 0 ? 'selected' : '') ?>>Activo</option>
-                    <option value="1" <?= ($usuario['baja'] == 1 ? 'selected' : '') ?>>Inactivo</option>
+                    <option value="NO" <?= ($usuario['baja'] == "NO" ? 'selected' : '') ?>>Activo</option>
+                    <option value="SI" <?= ($usuario['baja'] == "SI" ? 'selected' : '') ?>>Inactivo</option>
                 </select>
             </div>
         <?php endif; ?>
         <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+        <a href="<?= base_url('/usuarios/edit/') ?>" class="btn btn-danger">Cancelar</a>
     </form>
 </div>

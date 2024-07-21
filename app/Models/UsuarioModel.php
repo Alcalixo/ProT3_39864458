@@ -18,7 +18,7 @@ class UsuarioModel extends Model
 
     public function getUserById($id)
     {
-        return $this->find($id);
+        return $this->where('id_usuario', $id)->first();
     }
 
     public function createUser($data)
