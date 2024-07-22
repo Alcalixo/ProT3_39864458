@@ -1,10 +1,10 @@
 <div class="container">
     <h2>Lista de Usuarios</h2>
-    <?php if (session()->getFlashdata('msg')): ?>
+    <?php if (session()->getFlashdata('msg')) : ?>
         <div class="alert alert-success">
             <?= session()->getFlashdata('msg') ?>
         </div>
-    <?php endif;?>
+    <?php endif; ?>
     <table class="table">
         <thead>
             <tr>
@@ -19,7 +19,7 @@
             </tr>
         </thead>
         <tbody>
-            <?php foreach ($usuario as $usuario): ?>
+            <?php foreach ($usuario as $usuario) : ?>
                 <tr>
                     <td><?= $usuario['id_usuario'] ?></td>
                     <td><?= $usuario['nombre'] ?></td>

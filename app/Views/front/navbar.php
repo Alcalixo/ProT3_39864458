@@ -43,7 +43,7 @@ $perfil = $session->get('perfil_id');
             </div>
         <?php elseif (session()->perfil_id == 2) : ?>
             <div class="btn btn-info active btnUser btn-sm">
-                <a href="">Usuario: <?= session('usuario') ?></a>
+                <a href="'/usuario_logueado'">Usuario: <?= session('usuario') ?></a>
             </div>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">

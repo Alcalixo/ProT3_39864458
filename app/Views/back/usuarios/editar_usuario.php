@@ -36,6 +36,7 @@
                     <option value="SI" <?= ($usuario['baja'] == "SI" ? 'selected' : '') ?>>Inactivo</option>
                 </select>
             </div>
+            <br>
         <?php endif; ?>
         <button type="submit" class="btn btn-primary">Guardar Cambios</button>
         <a href="<?= base_url('/usuarios/edit/') ?>" class="btn btn-danger">Cancelar</a>

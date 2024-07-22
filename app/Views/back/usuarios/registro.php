@@ -57,6 +57,7 @@
                         Tu contraseña debe tener entre 8-20 caracteres de longitud, puede contener letras y numeros (abc123), pero no puede contener espacios vacios ni caracteres especiales (,.-)
                     </div>
                 </div>
+                <br>
                 <div class="col-12">
                     <button type="submit" class="btn btn-secondary">Registrarse</button>
                 </div>
