@@ -5,7 +5,7 @@
             <?= session()->getFlashdata('msg') ?>
         </div>
     <?php endif; ?>
-    <table class="table">
+    <table class="table table-success table-striped">
         <thead>
             <tr>
                 <th>ID</th>

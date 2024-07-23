@@ -1,16 +1,30 @@
 html {
   min-height: 100%;
   position: relative;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   margin: 0;
-  padding-bottom: 150px; /* Espacio para el footer */
-  background-color: rgb(87, 148, 87);
+  padding-bottom: 100px; /* Espacio para el footer */
+  background: rgb(0, 39, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 39, 255, 0.6610293775713411) 0%,
+    rgba(134, 148, 235, 1) 49%,
+    rgba(0, 26, 255, 0.5013655120251226) 100%
+  );
 }
 
 header {
-  background-color: #596653;
+  background: rgb(0, 125, 6);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 125, 6, 0.6610293775713411) 0%,
+    rgba(114, 181, 119, 1) 49%,
+    rgba(2, 133, 0, 0.5013655120251226) 100%
+  );
   color: #fff;
   text-align: center;
 }
@@ -22,8 +36,16 @@ h1 {
 }
 
 nav {
-  background-color: #596653;
-  padding: 10px;
+  background: rgb(0, 125, 6);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 125, 6, 0.6610293775713411) 0%,
+    rgba(114, 181, 119, 1) 49%,
+    rgba(2, 133, 0, 0.5013655120251226) 100%
+  );
+  padding: 0;
+  margin: 0;
+  left: 0;
 }
 
 nav ul {
@@ -102,19 +124,21 @@ label {
 }
 
 footer {
-  background-color: #596653;
+  background-color: #212221;
   position: absolute;
   bottom: 0;
   width: 100%;
   height: 100px; /* Asegúrate de que este valor coincida con el padding-bottom del body */
   color: #fff;
-  margin-top: 10px;
+  margin-top: 0;
   padding-top: 10px;
+  left: 0;
 }
 
 .footer-content {
   max-width: 100%; /* Ancho máximo del contenido del footer */
   margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
+  padding: 0;
   text-align: center;
 }
 
@@ -126,4 +150,11 @@ footer {
   border: none;
   display: inline-block;
   margin-left: 10px;
+}
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
