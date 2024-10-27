@@ -1,0 +1,8 @@
+writable/session
+writable/cache
+test/
+
+.env
+.env.txt
+
+public/
